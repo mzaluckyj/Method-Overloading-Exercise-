@@ -1,10 +1,6 @@
-﻿namespace MethodOverloading
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+﻿
+using MethodOverloading;
+
+var answer = methods.Add(0,0, false);
+Console.WriteLine(answer);
+
